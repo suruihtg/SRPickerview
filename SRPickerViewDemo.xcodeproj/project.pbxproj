@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		943FD3A8223A045300D596AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 943FD3A7223A045300D596AF /* AppDelegate.m */; };
+		943FD3AB223A045300D596AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 943FD3AA223A045300D596AF /* ViewController.m */; };
+		943FD3AE223A045300D596AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943FD3AC223A045300D596AF /* Main.storyboard */; };
+		943FD3B0223A045500D596AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943FD3AF223A045500D596AF /* Assets.xcassets */; };
+		943FD3B3223A045500D596AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943FD3B1223A045500D596AF /* LaunchScreen.storyboard */; };
+		943FD3B6223A045500D596AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 943FD3B5223A045500D596AF /* main.m */; };
+		943FD3C0223A045600D596AF /* SRPickerViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943FD3BF223A045600D596AF /* SRPickerViewDemoTests.m */; };
+		943FD3CB223A045600D596AF /* SRPickerViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943FD3CA223A045600D596AF /* SRPickerViewDemoUITests.m */; };
+		943FD3DE223A047A00D596AF /* SRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 943FD3DA223A047A00D596AF /* SRPickerView.m */; };
+		943FD3DF223A047A00D596AF /* SupportPickerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 943FD3DC223A047A00D596AF /* SupportPickerData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		943FD3BC223A045600D596AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943FD39B223A045300D596AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943FD3A2223A045300D596AF;
+			remoteInfo = SRPickerViewDemo;
+		};
+		943FD3C7223A045600D596AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943FD39B223A045300D596AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943FD3A2223A045300D596AF;
+			remoteInfo = SRPickerViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		943FD3A3223A045300D596AF /* SRPickerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRPickerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		943FD3A6223A045300D596AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		943FD3A7223A045300D596AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		943FD3A9223A045300D596AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		943FD3AA223A045300D596AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		943FD3AD223A045300D596AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		943FD3AF223A045500D596AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		943FD3B2223A045500D596AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		943FD3B4223A045500D596AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943FD3B5223A045500D596AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		943FD3BB223A045600D596AF /* SRPickerViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRPickerViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		943FD3BF223A045600D596AF /* SRPickerViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRPickerViewDemoTests.m; sourceTree = "<group>"; };
+		943FD3C1223A045600D596AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943FD3C6223A045600D596AF /* SRPickerViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRPickerViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		943FD3CA223A045600D596AF /* SRPickerViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRPickerViewDemoUITests.m; sourceTree = "<group>"; };
+		943FD3CC223A045600D596AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943FD3DA223A047A00D596AF /* SRPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPickerView.m; sourceTree = "<group>"; };
+		943FD3DB223A047A00D596AF /* SupportPickerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportPickerData.h; sourceTree = "<group>"; };
+		943FD3DC223A047A00D596AF /* SupportPickerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportPickerData.m; sourceTree = "<group>"; };
+		943FD3DD223A047A00D596AF /* SRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPickerView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		943FD3A0223A045300D596AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943FD3B8223A045600D596AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943FD3C3223A045600D596AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		943FD39A223A045300D596AF = {
+			isa = PBXGroup;
+			children = (
+				943FD3A5223A045300D596AF /* SRPickerViewDemo */,
+				943FD3BE223A045600D596AF /* SRPickerViewDemoTests */,
+				943FD3C9223A045600D596AF /* SRPickerViewDemoUITests */,
+				943FD3A4223A045300D596AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		943FD3A4223A045300D596AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				943FD3A3223A045300D596AF /* SRPickerViewDemo.app */,
+				943FD3BB223A045600D596AF /* SRPickerViewDemoTests.xctest */,
+				943FD3C6223A045600D596AF /* SRPickerViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		943FD3A5223A045300D596AF /* SRPickerViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				943FD3D9223A047A00D596AF /* SRPicker */,
+				943FD3A6223A045300D596AF /* AppDelegate.h */,
+				943FD3A7223A045300D596AF /* AppDelegate.m */,
+				943FD3A9223A045300D596AF /* ViewController.h */,
+				943FD3AA223A045300D596AF /* ViewController.m */,
+				943FD3AC223A045300D596AF /* Main.storyboard */,
+				943FD3AF223A045500D596AF /* Assets.xcassets */,
+				943FD3B1223A045500D596AF /* LaunchScreen.storyboard */,
+				943FD3B4223A045500D596AF /* Info.plist */,
+				943FD3B5223A045500D596AF /* main.m */,
+			);
+			path = SRPickerViewDemo;
+			sourceTree = "<group>";
+		};
+		943FD3BE223A045600D596AF /* SRPickerViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				943FD3BF223A045600D596AF /* SRPickerViewDemoTests.m */,
+				943FD3C1223A045600D596AF /* Info.plist */,
+			);
+			path = SRPickerViewDemoTests;
+			sourceTree = "<group>";
+		};
+		943FD3C9223A045600D596AF /* SRPickerViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				943FD3CA223A045600D596AF /* SRPickerViewDemoUITests.m */,
+				943FD3CC223A045600D596AF /* Info.plist */,
+			);
+			path = SRPickerViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		943FD3D9223A047A00D596AF /* SRPicker */ = {
+			isa = PBXGroup;
+			children = (
+				943FD3DB223A047A00D596AF /* SupportPickerData.h */,
+				943FD3DC223A047A00D596AF /* SupportPickerData.m */,
+				943FD3DD223A047A00D596AF /* SRPickerView.h */,
+				943FD3DA223A047A00D596AF /* SRPickerView.m */,
+			);
+			path = SRPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		943FD3A2223A045300D596AF /* SRPickerViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943FD3CF223A045600D596AF /* Build configuration list for PBXNativeTarget "SRPickerViewDemo" */;
+			buildPhases = (
+				943FD39F223A045300D596AF /* Sources */,
+				943FD3A0223A045300D596AF /* Frameworks */,
+				943FD3A1223A045300D596AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRPickerViewDemo;
+			productName = SRPickerViewDemo;
+			productReference = 943FD3A3223A045300D596AF /* SRPickerViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		943FD3BA223A045600D596AF /* SRPickerViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943FD3D2223A045600D596AF /* Build configuration list for PBXNativeTarget "SRPickerViewDemoTests" */;
+			buildPhases = (
+				943FD3B7223A045600D596AF /* Sources */,
+				943FD3B8223A045600D596AF /* Frameworks */,
+				943FD3B9223A045600D596AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943FD3BD223A045600D596AF /* PBXTargetDependency */,
+			);
+			name = SRPickerViewDemoTests;
+			productName = SRPickerViewDemoTests;
+			productReference = 943FD3BB223A045600D596AF /* SRPickerViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		943FD3C5223A045600D596AF /* SRPickerViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943FD3D5223A045600D596AF /* Build configuration list for PBXNativeTarget "SRPickerViewDemoUITests" */;
+			buildPhases = (
+				943FD3C2223A045600D596AF /* Sources */,
+				943FD3C3223A045600D596AF /* Frameworks */,
+				943FD3C4223A045600D596AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943FD3C8223A045600D596AF /* PBXTargetDependency */,
+			);
+			name = SRPickerViewDemoUITests;
+			productName = SRPickerViewDemoUITests;
+			productReference = 943FD3C6223A045600D596AF /* SRPickerViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		943FD39B223A045300D596AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ryan;
+				TargetAttributes = {
+					943FD3A2223A045300D596AF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					943FD3BA223A045600D596AF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 943FD3A2223A045300D596AF;
+					};
+					943FD3C5223A045600D596AF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 943FD3A2223A045300D596AF;
+					};
+				};
+			};
+			buildConfigurationList = 943FD39E223A045300D596AF /* Build configuration list for PBXProject "SRPickerViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 943FD39A223A045300D596AF;
+			productRefGroup = 943FD3A4223A045300D596AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				943FD3A2223A045300D596AF /* SRPickerViewDemo */,
+				943FD3BA223A045600D596AF /* SRPickerViewDemoTests */,
+				943FD3C5223A045600D596AF /* SRPickerViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		943FD3A1223A045300D596AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943FD3B3223A045500D596AF /* LaunchScreen.storyboard in Resources */,
+				943FD3B0223A045500D596AF /* Assets.xcassets in Resources */,
+				943FD3AE223A045300D596AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943FD3B9223A045600D596AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943FD3C4223A045600D596AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		943FD39F223A045300D596AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943FD3AB223A045300D596AF /* ViewController.m in Sources */,
+				943FD3DF223A047A00D596AF /* SupportPickerData.m in Sources */,
+				943FD3B6223A045500D596AF /* main.m in Sources */,
+				943FD3A8223A045300D596AF /* AppDelegate.m in Sources */,
+				943FD3DE223A047A00D596AF /* SRPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943FD3B7223A045600D596AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943FD3C0223A045600D596AF /* SRPickerViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943FD3C2223A045600D596AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943FD3CB223A045600D596AF /* SRPickerViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		943FD3BD223A045600D596AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943FD3A2223A045300D596AF /* SRPickerViewDemo */;
+			targetProxy = 943FD3BC223A045600D596AF /* PBXContainerItemProxy */;
+		};
+		943FD3C8223A045600D596AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943FD3A2223A045300D596AF /* SRPickerViewDemo */;
+			targetProxy = 943FD3C7223A045600D596AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		943FD3AC223A045300D596AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943FD3AD223A045300D596AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		943FD3B1223A045500D596AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943FD3B2223A045500D596AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		943FD3CD223A045600D596AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		943FD3CE223A045600D596AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		943FD3D0223A045600D596AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SRPickerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srdemo.picker.SRPickerViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		943FD3D1223A045600D596AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SRPickerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srdemo.picker.SRPickerViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		943FD3D3223A045600D596AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SRPickerViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srdemo.picker.SRPickerViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRPickerViewDemo.app/SRPickerViewDemo";
+			};
+			name = Debug;
+		};
+		943FD3D4223A045600D596AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SRPickerViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srdemo.picker.SRPickerViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRPickerViewDemo.app/SRPickerViewDemo";
+			};
+			name = Release;
+		};
+		943FD3D6223A045600D596AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SRPickerViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srdemo.picker.SRPickerViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SRPickerViewDemo;
+			};
+			name = Debug;
+		};
+		943FD3D7223A045600D596AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SRPickerViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srdemo.picker.SRPickerViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SRPickerViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		943FD39E223A045300D596AF /* Build configuration list for PBXProject "SRPickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943FD3CD223A045600D596AF /* Debug */,
+				943FD3CE223A045600D596AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943FD3CF223A045600D596AF /* Build configuration list for PBXNativeTarget "SRPickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943FD3D0223A045600D596AF /* Debug */,
+				943FD3D1223A045600D596AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943FD3D2223A045600D596AF /* Build configuration list for PBXNativeTarget "SRPickerViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943FD3D3223A045600D596AF /* Debug */,
+				943FD3D4223A045600D596AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943FD3D5223A045600D596AF /* Build configuration list for PBXNativeTarget "SRPickerViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943FD3D6223A045600D596AF /* Debug */,
+				943FD3D7223A045600D596AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 943FD39B223A045300D596AF /* Project object */;
+}
